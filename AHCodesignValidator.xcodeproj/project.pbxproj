@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE32C6E219F8B6DA0026561F /* AHCodesignValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE32C6E019F8B6DA0026561F /* AHCodesignValidator.h */; };
+		BE32C6E319F8B6DA0026561F /* AHCodesignValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32C6E119F8B6DA0026561F /* AHCodesignValidator.m */; };
+		BE32C6F119F8B8030026561F /* AHCodesignValidator_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32C6F019F8B8030026561F /* AHCodesignValidator_Tests.m */; };
+		BE32C6F719F8B8B80026561F /* libAHCodesignValidator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE32C6C919F8B6B50026561F /* libAHCodesignValidator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE32C6F519F8B8A90026561F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE32C6C119F8B6B50026561F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE32C6C819F8B6B50026561F;
+			remoteInfo = CodesignValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE32C6C919F8B6B50026561F /* libAHCodesignValidator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAHCodesignValidator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE32C6E019F8B6DA0026561F /* AHCodesignValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHCodesignValidator.h; sourceTree = "<group>"; };
+		BE32C6E119F8B6DA0026561F /* AHCodesignValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHCodesignValidator.m; sourceTree = "<group>"; };
+		BE32C6EC19F8B8030026561F /* AHCodesignValidator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHCodesignValidator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE32C6EF19F8B8030026561F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE32C6F019F8B8030026561F /* AHCodesignValidator_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHCodesignValidator_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE32C6C619F8B6B50026561F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE32C6E919F8B8030026561F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32C6F719F8B8B80026561F /* libAHCodesignValidator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE32C6C019F8B6B50026561F = {
+			isa = PBXGroup;
+			children = (
+				BE32C6CB19F8B6B50026561F /* AHCodesignValidator */,
+				BE32C6ED19F8B8030026561F /* AHCodesignValidator_Tests */,
+				BE32C6CA19F8B6B50026561F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE32C6CA19F8B6B50026561F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE32C6C919F8B6B50026561F /* libAHCodesignValidator.a */,
+				BE32C6EC19F8B8030026561F /* AHCodesignValidator_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE32C6CB19F8B6B50026561F /* AHCodesignValidator */ = {
+			isa = PBXGroup;
+			children = (
+				BE32C6E019F8B6DA0026561F /* AHCodesignValidator.h */,
+				BE32C6E119F8B6DA0026561F /* AHCodesignValidator.m */,
+			);
+			path = AHCodesignValidator;
+			sourceTree = "<group>";
+		};
+		BE32C6ED19F8B8030026561F /* AHCodesignValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE32C6F019F8B8030026561F /* AHCodesignValidator_Tests.m */,
+				BE32C6EE19F8B8030026561F /* Supporting Files */,
+			);
+			path = AHCodesignValidator_Tests;
+			sourceTree = "<group>";
+		};
+		BE32C6EE19F8B8030026561F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE32C6EF19F8B8030026561F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE32C6C719F8B6B50026561F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32C6E219F8B6DA0026561F /* AHCodesignValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE32C6C819F8B6B50026561F /* AHCodesignValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE32C6DA19F8B6B50026561F /* Build configuration list for PBXNativeTarget "AHCodesignValidator" */;
+			buildPhases = (
+				BE32C6C519F8B6B50026561F /* Sources */,
+				BE32C6C619F8B6B50026561F /* Frameworks */,
+				BE32C6C719F8B6B50026561F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHCodesignValidator;
+			productName = CodesignValidator;
+			productReference = BE32C6C919F8B6B50026561F /* libAHCodesignValidator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE32C6EB19F8B8030026561F /* AHCodesignValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE32C6F219F8B8030026561F /* Build configuration list for PBXNativeTarget "AHCodesignValidator_Tests" */;
+			buildPhases = (
+				BE32C6E819F8B8030026561F /* Sources */,
+				BE32C6E919F8B8030026561F /* Frameworks */,
+				BE32C6EA19F8B8030026561F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE32C6F619F8B8A90026561F /* PBXTargetDependency */,
+			);
+			name = AHCodesignValidator_Tests;
+			productName = CodesignValidator_Tests;
+			productReference = BE32C6EC19F8B8030026561F /* AHCodesignValidator_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE32C6C119F8B6B50026561F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Eldon Ahrold";
+				TargetAttributes = {
+					BE32C6C819F8B6B50026561F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BE32C6EB19F8B8030026561F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BE32C6C419F8B6B50026561F /* Build configuration list for PBXProject "AHCodesignValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE32C6C019F8B6B50026561F;
+			productRefGroup = BE32C6CA19F8B6B50026561F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE32C6C819F8B6B50026561F /* AHCodesignValidator */,
+				BE32C6EB19F8B8030026561F /* AHCodesignValidator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE32C6EA19F8B8030026561F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE32C6C519F8B6B50026561F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32C6E319F8B6DA0026561F /* AHCodesignValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE32C6E819F8B8030026561F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32C6F119F8B8030026561F /* AHCodesignValidator_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE32C6F619F8B8A90026561F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE32C6C819F8B6B50026561F /* AHCodesignValidator */;
+			targetProxy = BE32C6F519F8B8A90026561F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE32C6D819F8B6B50026561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE32C6D919F8B6B50026561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE32C6DB19F8B6B50026561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = AHCodesignValidator;
+			};
+			name = Debug;
+		};
+		BE32C6DC19F8B6B50026561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = AHCodesignValidator;
+			};
+			name = Release;
+		};
+		BE32C6F319F8B8030026561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHCodesignValidator_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = AHCodesignValidator_Tests;
+			};
+			name = Debug;
+		};
+		BE32C6F419F8B8030026561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHCodesignValidator_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = AHCodesignValidator_Tests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE32C6C419F8B6B50026561F /* Build configuration list for PBXProject "AHCodesignValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32C6D819F8B6B50026561F /* Debug */,
+				BE32C6D919F8B6B50026561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE32C6DA19F8B6B50026561F /* Build configuration list for PBXNativeTarget "AHCodesignValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32C6DB19F8B6B50026561F /* Debug */,
+				BE32C6DC19F8B6B50026561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE32C6F219F8B8030026561F /* Build configuration list for PBXNativeTarget "AHCodesignValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32C6F319F8B8030026561F /* Debug */,
+				BE32C6F419F8B8030026561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE32C6C119F8B6B50026561F /* Project object */;
+}
